@@ -1,6 +1,8 @@
 # SENAI - Fundamentos da Tecnologia
 
-Este projeto contém arquivos de HTML e CSS feitos durante o curso do SENAI.
+#Aluno: Daniel Miranda Gonçalves
+
+Este espaço será usado para execução de atividade e criação de projeto durante curso de tecnico em Informatica para Internet.
 
 ## Conteúdo
 - HTML básico
