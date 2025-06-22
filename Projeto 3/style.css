@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: white;
+    font-family: sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .text-container {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 20px; /* espaço lateral para as barras */
+  }
+  
+  #phrase {
+    margin-bottom: 40px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  #restartBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  
+  #restartBtn:hover {
+    background-color: #555;
+  }
+  
+  .barrier {
+    position: absolute;
+    top: 0;
+    width: 2px; /* barras mais finas */
+    height: 200%; /* mesma altura do texto */
+    background-color: #666;
+    z-index: 1;
+    border-radius: 2px;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .left-barrier {
+    left: 0;
+    transform: translateX(0);
+  }
+  
+  .right-barrier {
+    right: 0;
+    transform: translateX(0);
+  }

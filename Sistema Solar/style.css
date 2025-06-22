@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+/* Adicionar estrelas no fundo */
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+body::after {
+    display: block;
+    background: radial-gradient(circle, rgb(90, 103, 221) 1px, transparent 1px) repeat;
+    background-size: 5px 5px;
+    opacity: 0.5;
+}
+
+/* Contêiner do sistema solar */
+.container {
+    font-size: 10px;
+    width: 50em; /* Tamanho do contêiner */
+    height: 50em; /* Tamanho do contêiner */
+    position: relative;
+    border-radius: 100%; /* Para garantir que a área da órbita seja circular */
+}
+
+/* Estilo do Sol */
+.sun {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    width: 10em;
+    height: 10em;
+    background-color: #ffea00;
+    border-radius: 100%;
+    box-shadow: 0 0 10em #ffffff;
+    transform: translate(-50%, -50%); /* Centraliza o Sol perfeitamente no meio do contêiner */
+}
+
+/* Estilos dos planetas */
+.earth, .moon{
+    position: absolute;
+    border-style:solid;
+    border-width: 0.2em 0.1em 0 0;
+    border-radius: 100%;
+    transform-origin: center center;
+}
+
+.venus,.mercury, .mars, .jupiter, .saturn, .uranus, .neptune{
+    position: absolute;
+    border-width: 0.1rem 0.1rem 0 0;
+    border-radius: 100%;
+    transform-origin: center center; /* Garantir que a rotação ocorra ao redor do centro do Sol */
+}
+
+/* Planeta Terra e sua órbita */
+.earth {
+    top: 15%;
+    left: 15%;
+    width: 35em;
+    height: 20rem;
+    animation: orbit 3.5s linear infinite;
+}
+.moon {
+    top: 0;
+    right: 0;
+    width: 8em;
+    height: 8em;
+    animation: orbit 3.5s linear infinite;
+}
+.mercury {
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+    animation: orbit 3.8s linear infinite;
+}
+.mars {
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+    animation: orbit 3.4s linear infinite;
+}
+.venus {
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+    animation: orbit 3.2s linear infinite;
+}
+.jupiter {
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+    animation: orbit 3.9s linear infinite;
+}
+.saturn {
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+    animation: orbit 3.3s linear infinite;
+}
+.uranus {
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+    animation: orbit 3.7s linear infinite;
+}
+.neptune {
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+    animation: orbit 3.1s linear infinite;
+}
+
+/* Estilos para os planetas */
+.earth::before,
+.mercury::before,
+.venus::before,
+.mars::before,
+.jupiter::before,
+.saturn::before,
+.uranus::before,
+.neptune::before,
+.moon::before {
+    content: '';
+    position: absolute;
+    border-radius: 100%;
+}
+
+/* Lua */
+.moon::before {
+    top: 3.0em;
+    right: 0.8em;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: #c0c0c0;
+}
+/* Planeta Terra */
+.earth::before {
+    top: 2.8em;
+    right: 2.8em;
+    width: 3em;
+    height: 3em;
+    background-color: #13f1f1;
+}
+/* Planeta Mercúrio */
+.mercury::before {
+    top: 20%;
+    right: 20%;
+    width: 2em;
+    height: 2em;
+    background-color: #778686;
+}
+.venus::before{
+    top: -32.0em;
+    right: -32.0em;
+    width: 3em;
+    height: 3em;
+    background-color: #67ca2d;
+}
+.mars::before{
+    top: 3%;
+    right: 3%;
+    width: 3em;
+    height: 3em;
+    background-color: #d84b16; /* Cor vermelha */
+}
+.jupiter::before {
+    top: -20.0em;
+    right: -20.0em;
+    width: 8em;
+    height: 8em;
+    background-color: #d57b3c; /* Cor laranja */
+}
+.saturn::before {
+    top: -30.0em;
+    right: -30.0em;
+    width: 7em;
+    height: 7em;
+    background-color: #f4d03f; /* Cor amarela clara */
+}
+.uranus::before {
+    top: -40.0em;
+    right: -40.0em;
+    width: 7em;
+    height: 7em;
+    background-color: #00b5e2; /* Cor azul-esverdeado */
+}
+.neptune::before {
+    top: -50.0em;
+    right: -50.0em;
+    width: 5em;
+    height: 5em;
+    background-color: #0000ff; /* Cor azul */
+}
+
+/* Animação da órbita dos planetas */
+@keyframes orbit {
+    100% {
+        transform: rotate(360deg);
+    }
+}

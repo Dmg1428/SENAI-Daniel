@@ -1,0 +1,62 @@
+/* CSS Simples para os rostos de gato */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.Emoji {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc00; /* Cor do rosto */
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.olho {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerdo {
+    left: 20%;
+}
+
+.direito {
+    right: 20%;
+}
+
+.pupila {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.boca {
+    width: 60px;
+    height: 30px;
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20%;
+}
