@@ -1,0 +1,237 @@
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/dmg14/OneDrive/Área de Trabalh
+o/Arquivos/SENAI/Fundamentos da Tecnologia/.git/
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ mkdir Aula-1-Senai
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ cd Aula-1-Senai
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia/Aula-1-Senai (main)
+$ cd ..
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ cd Aula-1-Senai
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia/Aula-1-Senai (main)
+$ cd ..
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git add Aula-1-Senai
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git commit -m "Pasta Aula-1-Senai
+>
+> "
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git push origin main
+Everything up-to-date
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git add Aula-1-Senai
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git add Aula-1-Senai/
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git commit -m "Pasta nova"
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git push origin main
+Everything up-to-date
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git add .
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git add .
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git commit -m "Pasta nova 2"
+On branch main
+nothing to commit, working tree clean
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git push origin main
+Everything up-to-date
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Aula 1 - Senai/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git add .
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git commit -m "Pasta nova aula senai 1"
+[main fb117af] Pasta nova aula senai 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Aula 1 - Senai/html.index
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 332 bytes | 332.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Dmg1428/SENAI-Daniel.git
+   70e9868..fb117af  main -> main
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git pull origin main
+From https://github.com/Dmg1428/SENAI-Daniel
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git remote -v
+origin  https://github.com/Dmg1428/SENAI-Daniel.git (fetch)
+origin  https://github.com/Dmg1428/SENAI-Daniel.git (push)
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ ls ~/.ssh
+ls: cannot access '/c/Users/dmg14/.ssh': No such file or directory
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$
+Display all 5129 possibilities? (y or n)
+!
+./
+69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll
+6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll
+:
+ACPBackgroundManagerPolicy.dll
+AJRouter.dll
+APHostClient.dll
+APHostRes.dll
+APHostService.dll
+APMon.dll
+APMonUI.dll
+ARP.EXE
+AUDIOKSE.dll
+AarSvc.dll
+AboutSettingsHandlers.dll
+AboveLockAppHost.dll
+AcGenral.dll
+AcLayers.dll
+AcSpecfc.dll
+AcWinRT.dll
+AcXtrnal.dll
+AccountsRt.dll
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$  -t rsa -b 4096 -C "seu-email@gmail.com"
+bash: -t: command not found
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$  -t rsa -b 4096 -C "dmg1428@gmail.com"
+bash: -t: command not found
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ ssh-keygen -t rsa -b 4096 -C "dmg1428@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/dmg14/.ssh/id_rsa):
+Created directory '/c/Users/dmg14/.ssh'.
+Enter passphrase for "/c/Users/dmg14/.ssh/id_rsa" (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase for "/c/Users/dmg14/.ssh/id_rsa" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/dmg14/.ssh/id_rsa
+Your public key has been saved in /c/Users/dmg14/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:x9e0yXeMcq005XBcfBzFYcVkhRfOm1Y/9P7U/eMub4k dmg1428@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|               %#|
+|              =oO|
+|              o=*|
+|         .   +.@*|
+|        S o o X=O|
+|         . . +.==|
+|              o *|
+|             E =o|
+|              *++|
++----[SHA256]-----+
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundame
+$ eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+Agent pid 925
+Enter passphrase for /c/Users/dmg14/.ssh/id_rsa:
+Identity added: /c/Users/dmg14/.ssh/id_rsa (dmg1428@gmail.com)
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ ssh -T git@github.com
+The authenticity of host 'github.com (20.201.28.151)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 123456
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git push origin main
+Everything up-to-date
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git pull origin main
+From https://github.com/Dmg1428/SENAI-Daniel
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git remote -v
+origin  https://github.com/Dmg1428/SENAI-Daniel.git (fetch)
+origin  https://github.com/Dmg1428/SENAI-Daniel.git (push)
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+dmg14@DESKTOP-V68A67M MINGW64 ~/OneDrive/Área de Trabalho/Arquivos/SENAI/Fundamentos da Tecnologia (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
